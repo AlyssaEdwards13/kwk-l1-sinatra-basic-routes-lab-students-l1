@@ -1,4 +1,4 @@
-require 'Sinatra'
+require 'sinatra'
 
 class App < Sinatra::Base
   get '/' do 
@@ -9,11 +9,11 @@ class App < Sinatra::Base
     "My name is alyssa"
   end 
     
-  get '/favorite song' do
+  get '/favorite-song' do
     "My favorite song is Poplar ST."
   end 
   
-  get '/home town' do
-    "My home town is Wallnut creek"
+  get '/hometown' do
+    "My hometown is Wallnut creek"
   end 
 end
